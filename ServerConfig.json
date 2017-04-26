@@ -1,0 +1,31 @@
+{
+  "Json": {
+    "PeerchainWebAddr": "127.0.0.1:8000",
+    "TmspAddr": "tcp://127.0.0.1:46658",
+    "TmRpcLaddr": "http://127.0.0.1:46657",
+    "IpFsAPI": "http://127.0.0.1:5001",
+    "IpFsGateway": "",
+    "TmRoot": "./data/tendermint"
+  },
+  "Toml": {
+    "proxy_app": "tcp://127.0.0.1:46658",
+    "abci": "grpc",
+    "node_laddr": "tcp://127.0.0.1:46656",
+    "seeds": [
+      "51.15.47.174:46656",
+      "163.172.170.188:46656"
+    ],
+    "fast_sync":true,
+    "db_backend":"leveldb",
+    "log_level": "notice",
+    "rpc_laddr": "tcp://127.0.0.1:46657",
+    "block_size":100,
+    "timeout_propose": 30000,
+    "timeout_propose_delta": 5000,
+    "timeout_prevote": 10000,
+    "timeout_prevote_delta": 5000,
+    "timeout_precommit": 10000,
+    "timeout_precommit_delta": 5000,
+    "timeout_commit": 10000
+  }
+}
