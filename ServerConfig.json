@@ -1,8 +1,6 @@
 {
   "Json": {
     "PeerchainWebAddr": "127.0.0.1:8000",
-    "TmspAddr": "tcp://127.0.0.1:46658",
-    "TmRpcLaddr": "http://127.0.0.1:46657",
     "IpFsAPI": "http://127.0.0.1:5001",
     "IpFsGateway": "",
     "TmRoot": "./data/tendermint"
