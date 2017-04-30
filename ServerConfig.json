@@ -1,8 +1,6 @@
 {
   "Json": {
     "PeerchainWebAddr": "127.0.0.1:8000",
-    "TmspAddr": "tcp://127.0.0.1:46658",
-    "TmRpcLaddr": "http://127.0.0.1:46657",
     "IpFsAPI": "http://127.0.0.1:5001",
     "IpFsGateway": "",
     "TmRoot": "./data/tendermint"
@@ -12,8 +10,7 @@
     "abci": "grpc",
     "node_laddr": "tcp://127.0.0.1:46656",
     "seeds": [
-      "51.15.47.174:46656",
-      "163.172.170.188:46656"
+      "88.99.227.60:46656"
     ],
     "fast_sync":true,
     "db_backend":"leveldb",

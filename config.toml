@@ -1,0 +1,22 @@
+# This is a TOML config file.
+# For more information, see https://github.com/toml-lang/toml
+
+proxy_app = "tcp://127.0.0.1:46658"
+abci = "grpc"
+moniker = "anonymous"
+node_laddr = "tcp://127.0.0.1:46656"
+seeds = "88.99.227.60:46656"
+#seeds = ""
+fast_sync = false
+db_backend = "leveldb"
+log_level = "notice"
+rpc_laddr = "tcp://127.0.0.1:46657"
+
+block_size = 100
+timeout_propose = 30000
+timeout_propose_delta = 5000
+timeout_prevote = 10000
+timeout_prevote_delta = 5000
+timeout_precommit = 10000
+timeout_precommit_delta = 5000
+timeout_commit = 10000
