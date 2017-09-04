@@ -1,15 +1,23 @@
 {
-        "app_hash": "",
-        "chain_id": "peerity-testnet",
-        "genesis_time": "0001-01-01T00:00:00.000Z",
-        "validators": [
-                {
-                        "amount": 1,
-                        "name": "tuan",
-                        "pub_key": [
+        "app_hash":"",
+        "chain_id":"peerity-testnet",
+        "genesis_time":"2017-08-04T23:33:30.925Z",
+        "validators":[  
+                {  
+                        "pub_key":[  
+                                1,
+                                "A2783D1F0883842AAC68608D24085B7CC7301352D9C2C147CDF76EE74F657DAF"
+                        ],
+                        "amount":1,
+                        "name":"a"
+                },
+                {  
+                        "pub_key":[  
                                 1,
                                 "EB3B42091EF6C2F8FA951319940C003BEC7AAE2336BD2AFABD6FB59EB4A3EF6E"
-                        ]
+                        ],
+                        "amount":1,
+                        "name":"b"
                 }
         ]
 }
